@@ -58,7 +58,7 @@ Create a spider (In this repo I've already created one) [posts_spider.py](https:
 - - - -
 bash the following to create a new spider (you can not set the same name for different spiders):
 ```bash
-cd spiders
+cd spiders/
 ```
 ```bash
 touch quotes_spider.py
