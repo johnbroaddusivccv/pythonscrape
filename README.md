@@ -1,4 +1,4 @@
-# pythonscrape
+# Python Scraping with Scrapy
 Using Python Scrapy we create a spider to crawl websites to scrape and structure the data.
 ## Installation && usage
 ```bash
@@ -146,8 +146,8 @@ exit()
 ```
 or <kbd>ctrl</kbd><kbd>c</bd>
 - - - -
-###Storing Scrapped Data
-This is where the beauty of this technology comes in. You can turn this data you are scraping into JSON or a CSV.
+#### Storing Scraped Data
+This is where the beauty of this technology comes in. You can turn this data you are scraping into a JSON file or a CSV file.
 * I often use this to merge languages, I use python for visualizing and pulling data and javascript for everything else.
 * I'm able to use both python and javascript in a project when I turn the data I'm extracting into JSON.
 * I'm able to import my data as a CSV into a database.
