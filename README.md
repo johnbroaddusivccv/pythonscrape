@@ -41,7 +41,7 @@ py -m pip install scrapy
 ```bash
 pip install scrapy
 ```
-### before you start scraping
+### Before you start scraping
 I used the following to create the [postscrape](https://github.com/johnbroaddusivccv/pythonscrape/tree/master/postscrape) directory
 ```bash
 scrapy startproject postscrape
@@ -54,7 +54,7 @@ Do this once more as I have named the directory inside of postscrape - postscrap
 ```bash
 cd postscrape/
 ```
-Create a spider (In this repo I've already created one)[posts_spider.py](https://github.com/johnbroaddusivccv/pythonscrape/blob/master/postscrape/postscrape/spiders/posts_spider.py)
+Create a spider (In this repo I've already created one) [posts_spider.py](https://github.com/johnbroaddusivccv/pythonscrape/blob/master/postscrape/postscrape/spiders/posts_spider.py)
 bash the following to create a new spider (you can not set the same name for different spiders):
 ```bash
 cd spiders
@@ -139,7 +139,7 @@ With that the shell returns:
 * We’ve added ::text to the CSS query, to mean we want to select only the text elements directly inside <title> element.
 * We're using getall() to return a list, although there is only one title. To get just the first response use get()
 - - - -
-Lets get out of the shell using:
+Let's get out of the shell using:
 ```bash
 exit()
 ```
