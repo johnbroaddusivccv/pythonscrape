@@ -55,6 +55,7 @@ Do this once more as I have named the directory inside of postscrape - postscrap
 cd postscrape/
 ```
 Create a spider (In this repo I've already created one) [posts_spider.py](https://github.com/johnbroaddusivccv/pythonscrape/blob/master/postscrape/postscrape/spiders/posts_spider.py)
+- - - -
 bash the following to create a new spider (you can not set the same name for different spiders):
 ```bash
 cd spiders
