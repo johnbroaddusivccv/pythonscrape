@@ -40,8 +40,8 @@ py -m pip install scrapy
 * On Mac
 ```bash
 pip install scrapy
-### before you start scraping
 ```
+### before you start scraping
 I used the following to create the [postscrape](https://github.com/johnbroaddusivccv/pythonscrape/tree/master/postscrape) directory
 ```bash
 scrapy startproject postscrape
